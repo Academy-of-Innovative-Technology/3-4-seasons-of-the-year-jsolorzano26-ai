@@ -1,26 +1,32 @@
 html {
-	height: 100%;
-	width: 100%;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
 }
 
 .season-container {
-	margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 .month-card {
-	border: 1px solid #ddd;
-	border-radius: 5px;
-	overflow: hidden;
-	margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  overflow: hidden;
+  background-color: white;
 }
 
 .month-card img {
-	width: 100%;
-	height: 150px;
-	object-fit: cover;
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
 }
 
 .month-card-body {
-	padding: 15px;
-	text-align: center;
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
 }
